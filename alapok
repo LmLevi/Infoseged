@@ -1,0 +1,77 @@
+Head: 
+kodolas(UTF-8)
+title
+style css linkelese
+
+Body: 
+header--h1--section
+nav--ul--li--a
+main(ha nem tablazat, es nem lista)---section--h2--p
+main(ha tablazat)---section--h2--th--tr
+main(ha lista)---h2--ul--li
+ 
+Footer:
+random szoveg vagy link vagy email cim
+szoveg:p
+link v email: a+tab(ahref)
+
+
+
+
+
+SELECTOROK:::
+-tag alapján: body
+-class alapján: .sajat_doboz
+-id alapján: #focim
+-valamin belüli kijelölés: header h1, header>h1
+-felsorolás: h1, h2, h3
+
+
+SZABÁLYOK:::
+Háttér:
+-background-color: Háttérszín beállítása (pl. red, #ff0000).
+-background-image: Háttérkép beállítása (pl. url("kep.jpg")).
+-background-repeat: Háttérkép ismétlődése (pl. no-repeat, repeat-x).
+-opacity: Átlátszóság beállítása (0-tól 1-ig, pl. 0.5).
+
+Szöveg:
+-color: Szöveg színe (pl. blue, #0000ff).
+-font-size: Szöveg mérete (pl. 16px, 1.2em).
+-font-family: Betűtípus (pl. Arial, Helvetica).
+-font-weight: Szöveg vastagsága (pl. bold, normal).
+-text-align: Szöveg igazítása (pl. center, left).
+-line-height: Sorok közötti távolság (pl. 1.5).
+-text-transform: Szöveg átalakítása (pl. uppercase, lowercase).
+-text-shadow: Szöveg árnyéka (pl. 2px 2px 5px gray).
+-text-decoration: Szöveg díszítése (pl. underline, none).
+-overflow: Túlcsorduló tartalom kezelése (pl. hidden, scroll).
+
+Box-model:
+-width: Szélesség beállítása (pl. 100px, 50%).
+-height: Magasság beállítása (pl. 200px, auto).
+-margin: Külső térköz beállítása (pl. 10px, auto).
+-border: Keret beállítása (pl. 1px solid black).
+-padding: Belső térköz beállítása (pl. 10px).
+-border-radius: Sarkok lekerekítése (pl. 10px).
+-box-shadow: Árnyék hozzáadása (pl. 2px 2px 5px gray).
+
+Elhelyezés:
+-position: Pozíció típusa (pl. relative, absolute).
+-top, right, bottom, left: Pozíció beállítása (pl. top: 10px).
+-display: Megjelenítési mód (pl. block, flex).
+-z-index: Rétegezés (pl. 1, 2).
+
+Színek:
+-név: re
+-hex: #ff0000
+-rgb: rgb(255, 0, 0)
+-rgba: rgba(255, 0, 0, 0.5)
+
+Listák:
+-list-style-type: Lista jelölő típusa (pl. circle, decimal).
+-list-style-position: Lista jelölő pozíciója (pl. inside, outside).
+
+Kis animációk:
+-transition: Átmenet beállítása (pl. transition: all 0.3s ease).
+
+
