@@ -1,3 +1,6 @@
+
+
+INPUT.HTML
 Head: 
 kodolas(UTF-8)
 title
@@ -15,6 +18,20 @@ random szoveg vagy link vagy email cim
 szoveg:p
 link v email: a+tab(ahref)
 
+
+Alap html-szerkezet: html, head, body (VSCode legenerálja)
+böngészőlap címe: title
+külső css fájl linkelése: link
+headingek: h1, h2, h3, h4, h5, h6
+bekezdések: p,
+felsorolások: ol, ul, li,
+táblázatok: table, thead, tbody, tr, td, th, ugyanitt cellák kiterjesztése (rowspan, colspan attribútumok)
+linkek: a, a href attribútum, a target="_blank" az új oldalra való megnyitáshoz
+képek (következő alkalommal tanuljuk): img, src és title attribútumok,
+egyebek: br (sortörés), hr (vízszintes vonal)
+saját elem készítéséhez div
+html5 (szemantikus) elemek: header, nav, main, aside, footer, article, section
+inline tagek: strong, b, em, i, span (ez utóbbi az "inline div", arra van, hogy saját magad alakítsd)
 
 
 
